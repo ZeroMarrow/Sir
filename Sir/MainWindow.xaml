@@ -1,0 +1,18 @@
+﻿<Window x:Class="Sir.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sir"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="299.589" Width="347.534">
+    <Grid Margin="0,0,14,10">
+        <TextBox x:Name="x1" HorizontalAlignment="Left" Height="23" Margin="137,48,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="X1" HorizontalAlignment="Left" Height="23" Margin="137,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Введите день" HorizontalAlignment="Left" Margin="31,48,0,0" VerticalAlignment="Top" Height="23" Width="101"/>
+        <Label Content="Введите месяц" HorizontalAlignment="Left" Margin="31,76,0,0" VerticalAlignment="Top" Height="23" Width="101"/>
+        <Button x:Name="batton" Content="Узнать" HorizontalAlignment="Left" Margin="31,115,0,0" VerticalAlignment="Top" Width="226" Height="38" Click="batton_Click"/>
+        <TextBlock x:Name="vivod" HorizontalAlignment="Left" Margin="31,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="49" Width="226"/>
+
+    </Grid>
+</Window>
